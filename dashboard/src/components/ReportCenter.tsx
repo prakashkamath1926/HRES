@@ -19,11 +19,15 @@ export const ReportCenter: React.FC<ReportCenterProps> = ({ incident, handleReso
         const err = await res.json().catch(() => ({}));
         throw new Error(err.detail || "AAR not available. Resolve the incident first.");
       }
+      const contentType = res.headers.get("content-type") || "";
+      const isHtml = contentType.includes("text/html");
+      const extension = isHtml ? "html" : "pdf";
+      
       const blob = await res.blob();
       const url = URL.createObjectURL(blob);
       const a = document.createElement("a");
       a.href = url;
-      a.download = `HRES_AAR_${incident.incident_id}.pdf`;
+      a.download = `HRES_AAR_${incident.incident_id}.${extension}`;
       document.body.appendChild(a);
       a.click();
       document.body.removeChild(a);

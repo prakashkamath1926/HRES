@@ -124,7 +124,7 @@ def get_nearest_facilities(lat: float, lon: float) -> dict:
             "name": "City General Hospital (Demo Fallback)",
             "lat": lat + 0.015,
             "lon": lon + 0.015,
-            "route": {"distance_km": 2.4, "duration_min": 6.5}
+            "route": {"distance_km": 2.4, "duration_min": 6.5, "geometry": None}
         }
 
     if fire_stations:
@@ -137,7 +137,7 @@ def get_nearest_facilities(lat: float, lon: float) -> dict:
             "name": "Central Fire Rescue (Demo Fallback)",
             "lat": lat - 0.012,
             "lon": lon + 0.008,
-            "route": {"distance_km": 1.8, "duration_min": 4.0}
+            "route": {"distance_km": 1.8, "duration_min": 4.0, "geometry": None}
         }
 
     if cooling_centers:
@@ -149,7 +149,7 @@ def get_nearest_facilities(lat: float, lon: float) -> dict:
             "name": "Community Library Center (Demo Fallback)",
             "lat": lat - 0.005,
             "lon": lon - 0.005,
-            "route": {"distance_km": 0.8, "duration_min": 2.0}
+            "route": {"distance_km": 0.8, "duration_min": 2.0, "geometry": None}
         }
 
     logger.info(f"Facilities found: hospital={bool(result['hospital'])}, fire={bool(result['fire_station'])}, cooling={bool(result['cooling_center'])}")

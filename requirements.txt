@@ -26,3 +26,4 @@ langgraph
 # Utils
 python-dotenv
 reportlab
+fpdf2

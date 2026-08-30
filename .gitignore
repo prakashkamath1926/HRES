@@ -1,3 +1,28 @@
+# Python
 venv/
-.env
 __pycache__/
+*.pyc
+.pytest_cache/
+
+# Node / Frontend
+node_modules/
+dist/
+build/
+.npm/
+
+# Environment Variables (CRITICAL)
+.env
+.env.*.local
+
+# Databases
+data/
+*.db
+*.sqlite3
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# IDEs
+.vscode/
+.idea/

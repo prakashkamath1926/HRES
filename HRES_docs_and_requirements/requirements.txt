@@ -1,0 +1,28 @@
+# HRES — Heat Response Emergency System
+# Python dependencies
+
+# Environment/configuration
+python-dotenv
+
+# HTTP/API clients
+requests
+
+# Backend API
+fastapi
+uvicorn[standard]
+
+# Data validation
+pydantic
+
+# Agentic workflow
+langgraph
+
+# LLM integrations can be added according to the selected provider.
+# Keep provider-specific packages separate until a provider is finalized.
+
+# Testing
+pytest
+httpx
+
+# Report generation
+reportlab

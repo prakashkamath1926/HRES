@@ -1,0 +1,45 @@
+[
+  {
+    "observation_id": "obs-escalation-fg-002",
+    "source": "FortyGuard",
+    "data_mode": "simulated",
+    "event_type": "heat",
+    "location": {
+      "latitude": 26.9124,
+      "longitude": 75.7873,
+      "address": "HeatShield Campus Zone, Jaipur",
+      "source": "gps",
+      "timestamp": "2026-08-26T10:15:00Z"
+    },
+    "observed_at": "2026-08-26T10:15:00Z",
+    "received_at": "2026-08-26T10:15:02Z",
+    "value": {
+      "temperature": 48.2,
+      "unit": "celsius"
+    },
+    "confidence": 1.0
+  },
+  {
+    "observation_id": "obs-escalation-om-002",
+    "source": "Open-Meteo",
+    "data_mode": "simulated",
+    "event_type": "heat",
+    "location": {
+      "latitude": 26.9124,
+      "longitude": 75.7873,
+      "address": "HeatShield Campus Zone, Jaipur",
+      "source": "gps",
+      "timestamp": "2026-08-26T10:15:00Z"
+    },
+    "observed_at": "2026-08-26T10:15:00Z",
+    "received_at": "2026-08-26T10:15:02Z",
+    "value": {
+      "temperature": 45.5,
+      "apparent_temperature": 49.0,
+      "humidity": 25,
+      "wind_speed": 18.0,
+      "precipitation": 0.0
+    },
+    "confidence": 1.0
+  }
+]

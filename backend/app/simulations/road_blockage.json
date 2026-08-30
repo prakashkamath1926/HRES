@@ -1,0 +1,24 @@
+[
+  {
+    "observation_id": "obs-roadblock-gps-004",
+    "source": "Maps",
+    "data_mode": "simulated",
+    "event_type": "road_block",
+    "location": {
+      "latitude": 26.9120,
+      "longitude": 75.7865,
+      "address": "West Campus Entrance Gate, Jaipur",
+      "source": "sensor",
+      "timestamp": "2026-08-26T10:25:00Z"
+    },
+    "observed_at": "2026-08-26T10:25:00Z",
+    "received_at": "2026-08-26T10:25:02Z",
+    "value": {
+      "blockage_type": "construction",
+      "road_name": "Main Entrance Road",
+      "status": "blocked",
+      "description": "Primary gate blocked due to emergency works."
+    },
+    "confidence": 1.0
+  }
+]

@@ -1,0 +1,23 @@
+[
+  {
+    "observation_id": "obs-smoke-user-003",
+    "source": "User Report",
+    "data_mode": "simulated",
+    "event_type": "smoke_report",
+    "location": {
+      "latitude": 26.9124,
+      "longitude": 75.7873,
+      "address": "HeatShield Campus Zone, Jaipur",
+      "source": "user",
+      "timestamp": "2026-08-26T10:20:00Z"
+    },
+    "observed_at": "2026-08-26T10:20:00Z",
+    "received_at": "2026-08-26T10:20:05Z",
+    "value": {
+      "smoke_detected": true,
+      "description": "Heavy black smoke observed near the west administration block.",
+      "severity": "high"
+    },
+    "confidence": 0.8
+  }
+]

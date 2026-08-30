@@ -13,7 +13,7 @@ T = TypeVar("T", bound=BaseModel)
 
 # Models
 XKIRO_MODEL = "openai/qwen/qwen3.6-27b:free"
-GROQ_MODEL = "groq/llama3-8b-8192"
+GROQ_MODEL = "groq/llama-3.1-8b-instant"
 
 class LLMService:
     @staticmethod

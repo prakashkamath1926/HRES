@@ -11,8 +11,6 @@ psycopg2-binary
 PyJWT
 google-auth
 google-auth-oauthlib
-google-auth-httpx
-
 # Integrations
 litellm
 resend
